@@ -1,0 +1,52 @@
+.container {
+    margin-top: 5%;
+    background-image: url("../fond4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ }
+#quote{
+    
+    margin-top: 10em;
+    margin-left: 100px;
+    width: 50%;
+    height: 50%;
+    display: block;
+    color: white;
+    border-left: 0 solid #eee; 
+}
+#cite{
+    width: 30%;
+    color: #932e12;
+    padding: 20px;
+}
+#photo{
+    width: 40%;
+    margin-top: -150px;
+    max-width: 80%; /* or to whatever you want here */
+    max-height: auto; /* or to whatever you want here */
+}
+.wrapper img {
+    width: auto;
+    height: 100%;
+    max-width: none;
+    position: absolute;
+    left: 50%;
+    top: -30%;
+    transform: translateX(-50%);
+  }
+  .myquote{
+      margin-top: 20px;
+      background-color: rgba(245, 245, 245, 0.4);
+      color: black;
+      padding: 20px;
+      border-radius: 6px;
+  }
+  .btn{
+      position: fixed;
+      margin-bottom: 150px;
+      margin-left: 537px;
+      display: block;
+      
+  }
